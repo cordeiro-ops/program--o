@@ -1,0 +1,65 @@
+body {
+    padding: 0%;
+    background-image: linear-gradient(to right, rgba(19, 40, 233, 0.377), #a937cfbd, rgba(201, 30, 30, 0.5));
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    font-family: Pinyon Script, cursive;
+}
+h2{
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    font-family: Pinyon Script, cursive;
+
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-family: Pinyon Script, cursive;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /*background-color: rgb(156, 35, 130);*/
+    border-radius: 50cqmax;
+    padding: 12px 12px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: 5px 5px 5px;
+    /* box-shadow: 5px 5px 5px 5px whitesmoke;*/
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-size: 60px;
+    text-shadow: 5px 2px 2px rgb(110, 60, 60);
+    font-family: Pinyon Script, cursive;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+a.pato{
+     font-size: 50px;
+     position: absolute;
+     left: 40%;
+     top: 80%;
+}

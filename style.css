@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*heigth: 100%*/
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    background-image: linear-gradient( to right, #363636, #A9A9A9, #DCDCDC);
+}
+
+main{
+    background-color: whitesmoke;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0);
+}
+h1{ 
+    color: blue;
+    text-align: center;
+    text-shadow:2px 2px 2px blue;
+}
+
+h2{
+    color: brown;
+    text-shadow: 1px 1px 1px black;
+}
+
+p{
+    text-align: justify;
+}
+div{
+    background-color:brown;
+    width: 200px;
+    height: 50px;
+    border: 1px black;
+    margin: 10px;
+}
+
+div:hover{
+    background-color: black; 
+} /*quando passar o mouse ficara da cor selecionada*/
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+a:active{
+    color: yellow;
+}

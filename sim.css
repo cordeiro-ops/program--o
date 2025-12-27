@@ -1,0 +1,214 @@
+/* Estilo geral de todos os corações */
+.fundo-coracoes span {
+    position: absolute;
+    font-size: 25px;
+    animation: flutuar 4s infinite alternate ease-in-out;
+    pointer-events: none;
+    /* Não atrapalha o clique no botão */
+    z-index: 1;
+}
+
+/* Animação suave */
+@keyframes flutuar {
+    from {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    to {
+        transform: translateY(-15px) rotate(10deg);
+    }
+}
+
+/* --- DISTRIBUIÇÃO PELA TELA --- */
+/* Topo */
+.cor-1 {
+    top: 5%;
+    left: 5%;
+}
+
+.cor-2 {
+    top: 10%;
+    left: 25%;
+}
+
+.cor-3 {
+    top: 5%;
+    left: 50%;
+}
+
+.cor-4 {
+    top: 12%;
+    left: 75%;
+}
+
+.cor-5 {
+    top: 8%;
+    left: 90%;
+}
+
+/* Meio Superior */
+.cor-6 {
+    top: 25%;
+    left: 15%;
+}
+
+.cor-7 {
+    top: 30%;
+    right: 20%;
+}
+
+.cor-8 {
+    top: 20%;
+    left: 40%;
+}
+
+.cor-9 {
+    top: 35%;
+    left: 60%;
+}
+
+.cor-10 {
+    top: 28%;
+    right: 5%;
+}
+
+/* Centro (ao redor do botão) */
+.cor-11 {
+    top: 45%;
+    left: 10%;
+}
+
+.cor-12 {
+    top: 55%;
+    right: 15%;
+}
+
+.cor-13 {
+    top: 50%;
+    left: 25%;
+}
+
+.cor-14 {
+    top: 40%;
+    right: 30%;
+}
+
+.cor-15 {
+    top: 60%;
+    left: 40%;
+}
+
+/* Meio Inferior */
+.cor-16 {
+    bottom: 35%;
+    left: 5%;
+}
+
+.cor-17 {
+    bottom: 40%;
+    right: 10%;
+}
+
+.cor-18 {
+    bottom: 30%;
+    left: 50%;
+}
+
+.cor-19 {
+    bottom: 45%;
+    right: 40%;
+}
+
+.cor-20 {
+    bottom: 25%;
+    left: 70%;
+}
+
+/* Rodapé */
+.cor-21 {
+    bottom: 5%;
+    left: 10%;
+}
+
+.cor-22 {
+    bottom: 10%;
+    left: 30%;
+}
+
+.cor-23 {
+    bottom: 5%;
+    left: 50%;
+}
+
+.cor-24 {
+    bottom: 15%;
+    left: 70%;
+}
+
+.cor-25 {
+    bottom: 8%;
+    left: 90%;
+}
+
+/* Espalhados Extras */
+.cor-26 {
+    top: 70%;
+    left: 20%;
+}
+
+.cor-27 {
+    top: 15%;
+    left: 85%;
+}
+
+.cor-28 {
+    bottom: 20%;
+    left: 5%;
+}
+
+.cor-29 {
+    top: 80%;
+    right: 15%;
+}
+
+.cor-30 {
+    bottom: 50%;
+    right: 50%;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    /* Move o topo para o meio da tela */
+    left: 50%;
+    /* Move a lateral para o meio da tela */
+    transform: translate(-50%, -50%);
+    /* Ajusta o eixo para o centro do próprio texto */
+    margin: 0;
+    /* Remove margens padrão que podem deslocar o texto */
+    text-align: center;
+    font-family: Pinyon Script, cursiv;
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px black;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(224, 81, 193, 0.685), #b98e3d9f, rgba(55, 197, 178, 0.521));
+}
+
+button {
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    margin: 0;
+    box-shadow: 3px 3px 3px black;
+    background-color: rgb(170, 80, 80);
+    border-radius: 50px;
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color:antiquewhite;
+    font-size: 20px;
+}

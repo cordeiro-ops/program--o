@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 550px;
+    min-width: 350px;
+}
+.carrosel{
+    display: flex;
+    grid-auto-flow: column;
+    gap: 1.2rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+.card{
+    background-color: black;
+    min-height: 350px;
+    min-width: 450px;
+    scroll-snap-align: center;
+    border-radius: 40px;
+}

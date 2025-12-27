@@ -1,0 +1,120 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.897);
+    font-family: Pinyon Script, cursive;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+p.P1 {
+    color: rgba(3, 3, 3, 0.897);
+
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.377), #81638bbd, rgba(255, 255, 255, 0.5));
+    color: rgb(0, 0, 0);
+}
+
+main {
+    background-color: rgb(248, 179, 233);
+    width: 90%;
+    max-width: 500px;
+    padding: 13px;
+    margin: 20px auto;
+    border-radius: 25px;
+    box-shadow: 9px 9px 9px #ad7a73;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px #f800e3;
+    font-size: 1px;
+    font-family: Pinyon, Script, cursive;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.897);
+    text-shadow: #000000;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    font-size: 18px;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px #f800e3;
+    font-size: 14px;
+    font-family: Pinyon, Script, cursive;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+    background-color: #9c131300;
+
+
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    /*text-shadow: 1px 1px rgb(0, 0, 0);*/
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+a.sofi {
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px #f800e3;
+    font-size: 30px;
+    font-family: Pinyon, Script, cursive;
+
+}
+
+p.uno {
+    background-image: linear-gradient(to right, rgba(65, 211, 52, 0.637), #ffffff, rgba(183, 0, 255, 0.575));
+    color: rgb(0, 0, 0);
+    display: block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 3px 20px #0e0d0d;
+    font-family: Pinyon Script, cursive;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: purple;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 600px) {
+    p.uno {
+        font-size: 1.2rem;
+        /* Diminui um pouco a letra no celular */
+        padding: 8px 12px;
+        /* Ajusta o fundo para não ocupar muito espaço */
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        /* Título menor para caber em uma linha */
+    }
+}
