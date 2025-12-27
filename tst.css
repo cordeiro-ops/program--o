@@ -5,7 +5,7 @@
 p {
     text-align: justify;
     color: rgba(0, 0, 0, 0.897);
-    font-family: Pinyon Script, cursive;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 18px;
 
@@ -36,7 +36,7 @@ h1 {
     text-align: center;
     text-shadow: 1px 1px 1px #f800e3;
     font-size: 1px;
-    font-family: Pinyon, Script, cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -52,7 +52,7 @@ h3{
     text-align: center;
     text-shadow: 1px 1px 1px #f800e3;
     font-size: 14px;
-    font-family: Pinyon, Script, cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -80,7 +80,7 @@ a.sofi {
     text-align: center;
     text-shadow: 1px 1px 1px #f800e3;
     font-size: 30px;
-    font-family: Pinyon, Script, cursive;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -94,7 +94,7 @@ p.uno {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 3px 20px #0e0d0d;
-    font-family: Pinyon Script, cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 600;
 }
