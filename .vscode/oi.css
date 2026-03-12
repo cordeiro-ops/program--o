@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{ 
+    /*background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);*/
+
+    /*background-image:linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
+
+        /* 1. Definimos 4 cores para o degradê (as do seu estilo glass + o rosa) */
+    background: linear-gradient(-45deg, #667eea, #764ba2, #ff758c, #23d5ab);
+    
+    /* 2. Aumentamos o tamanho do fundo para o CSS "correr" por ele */
+    background-size: 400% 400%;
+    
+    /* 3. Chamamos a animação (duração de 15 segundos, suave e infinita) */
+    animation: gradient 15s ease infinite;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/* 4. Criamos a "regra" do movimento (o fundo desliza da esquerda para a direita) */
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 40px;
+    /*background-color: #1a1a2e;*/
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0px 10px 30px;
+
+}
+
+h1{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-shadow: 0px 0px 5px white;*/
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: none;
+    gap: 10px;
+    background-color: white 0.8;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-shadow: 0px 0px 5px white;*/
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff758c;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="oi.css">
+   
+</head>
+<body>
+    <main>
+        <form id="loginForm">
+            <h1>login</h1>
+            <div class="campo">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+    </main>
+<script>
+    const form = document.getElementById('loginForm');
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // Impede a página de recarregar sozinha
+
+        const email = document.getElementById('email').value;
+        const senha = document.getElementById('senha').value;
+
+        // Regra de Acesso:
+        if ((email === 'admin@teste.com' && senha === '123')
+        || (email === 'joaovictorcordeironascimento04@gmail.com' && senha === '0409') || (email === 'brned030@carrefour.com' && senha === 'carrefour') || (email === 'sofia@so.com' && senha === 'meubem'))  {
+            window.location.href = 'adm.html'; // Vai para a página completa
+        } else {
+            window.location.href = 'usuario.html'; // Vai para a página simples
+        }
+    });
+</script>
+
+
+</body>
+</html>
